@@ -1,6 +1,7 @@
 package de.alfe.gui;
 
-import com.vividsolutions.jts.io.ParseException;
+//import com.vividsolutions.jts.io.ParseException;
+import 
 import de.alfe.gui.map.Map;
 import de.alfe.util.DataBean;
 import javafx.event.ActionEvent;
@@ -20,8 +21,10 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
-import org.geotools.data.ows.Layer;
-import org.geotools.data.wms.WebMapServer;
+//import org.geotools.data.ows.Layer;
+import org.geotools.ows.wms.Layer;
+//import org.geotools.data.wms.WebMapServer;
+import org.geotools.ows.wms.WebMapServer;
 import org.geotools.feature.SchemaException;
 import org.geotools.ows.ServiceException;
 import org.geotools.geometry.GeneralEnvelope;
